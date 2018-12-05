@@ -1,0 +1,39 @@
+@media screen and (max-width: 1045px){
+/*.nav-menu a{
+	padding: 2.3% 1.5% 3% 1.5%;
+}*/
+nav-menu{
+	margin-top: 0;
+}
+	.nav_block{
+	background-position: center 5px; 
+}
+.nav_block{
+	background-position: center 5px;
+}
+h1{
+	font-size: 4em;
+}
+.article p{
+	line-height: 20px;
+}
+.photo-circle{
+	width: 180px;
+	height: 180px;
+}
+.wrapper-bg{
+	height: 770px;
+}
+.wrapper-main{
+	height: 700px;
+}
+.text span{
+	font-size: 2em;
+}
+.text p{
+	width: 50%;
+}
+.footer-nav{
+	width: 50%;
+}
+}

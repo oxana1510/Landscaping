@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Nimbus San T Con Bold;
+	src: url(fonts/NIMBSTB.TTF);
+}
+@font-face{
+	font-family: "Helvetica Neue Cyr - Black";
+	src: url(fonts/HelveticaNeueCyr-Black.otf);
+}
+@font-face{
+	font-family: "Arial MT";
+	src: url(fonts/HelveticaNeueCyr-Roman.otf);
+}
+@font-face{
+font-family: "Helvetica Neue Cyr - Bold";
+src: url(fonts/HelveticaNeueCyr-Bold.otf);
+}
+@font-face{
+font-family: "Helvetica Neue Cyr - Light";
+src: url(fonts/HelveticaNeueCyr-Light.otf);
+}
+@font-face{
+	font-family: "Helvetica Neue Cyr";
+	src: url(fonts/HelveticaNeueCyr-Thin.otf);
+}
+.wrapper-bg{
+	background-image: url(img/bg_top.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 870px;
+	background-attachment: fixed;
+}
+.logo{
+	width: 33.5%;
+	height: 16.25%;
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	background: #fff;
+	text-align: center;
+	margin: auto;
+}
+.logo img{
+	padding-top: 5%;
+	width: 80%;
+}
+.line-top{
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: -5px;
+	z-index: 55522222;
+}
+.container-top{
+	width: 75%;
+	margin: auto;
+}
+.nav_block{
+	margin: auto;
+	background-image: url(img/bg_gradient.png);
+	background-position: center top;
+}
+.nav-menu{
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	width: 56.77%;
+	margin: auto;
+	margin-top: -2.5%;
+}
+.nav-menu a{
+	text-decoration: none;
+	font-family: Nimbus San T Con Bold;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.188em;
+	padding: 20px 10px 20px 10px;
+}
+.nav-menu a:hover{
+	background: #e46107;
+	border-radius: 5px;
+	z-index: 1;
+}
+/*.nav-menu a:first-child,
+.nav-menu a:last-child{
+	padding: 2.1% 2% 3% 2%;
+}
+.nav-menu a:nth-of-type(2){
+	padding: 2.5% 2% 3% 2%;
+}*/
+h1{
+	text-shadow: 0 0 6px rgba(31, 88, 0, 0.75);
+	color: #f1f2f5;
+	font-family: "Helvetica Neue Cyr - Black";
+	font-size: 4.25em;
+	width: 77.9%;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+.article{
+	height: 180px;
+	border-radius: 5px;
+	background-color: #26311c;
+	opacity: 0.7;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 2;
+	/*margin-bottom: 235px;*/
+}
+.article h2{
+color: #f1f2f5;
+font-family: "Helvetica Neue Cyr";
+font-size: 2.125em;
+font-weight: 300;
+}
+.article p{
+color: #ffffff;
+font-family: "Arial MT";
+font-size:0.875em;
+line-height: 25px;
+padding: 0 44px 0 46px;
+}
+.line-bg-center{
+	width: 100%;
+	border: none;
+	outline: 4px solid #e46107;
+}
+.wrapper-main{
+	background-color: #26311c;
+	background-size: 100%;
+	height: 800px;
+}
+main{
+	width: 75%;
+ 	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+
+	-ms-flex-wrap: wrap;
+
+	    flex-wrap: wrap;
+	margin-top: -128px;
+	left: 50%;
+	margin-left: -37.5%;
+}
+.photo-circle{
+	width: 207px;
+	height: 207px;
+	border-radius: 100%;
+	border: 6px solid #fff;
+	background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 25px;
+}
+.PottingSoil{
+	background-image: url(img/PottingSoil.jpg);
+}
+.PeatMoss{
+	background-image: url(img/PeatMoss.jpg);
+}
+.Fertilizers{
+	background-image: url(img/Fertilizers.jpg);
+}
+.Mulch{
+	background-image: url(img/Mulch.jpg);
+}
+.Compost{
+	background-image: url(img/Compost.jpg);
+}
+main h3{
+	font-family: "Helvetica Neue Cyr";
+	color: #f1f2f5;
+	font-size: 2.125em;
+	font-weight: 300;
+}
+.button-mail{
+text-decoration: none;
+color: #ffffff;
+font-family: "Nimbus San T Con Bold";
+font-size: 1.188em;
+font-weight: 400;
+text-transform: uppercase;
+border: 2px solid #a1ad97;
+border-radius: 5px;
+padding: 22px 44px 21px 45px;
+}
+.button-mail:hover{
+color: #8dc705;
+border: 2px solid #8dc705;
+
+}
+.main-item{
+	text-align: center;
+	line-height: 3;
+}
+.footer-bg{
+	background-image: url(img/bg_footer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.text{
+	width: 75%;
+	margin: auto;
+	padding-top: 98px;
+}
+.text h3{
+font-family: "Helvetica Neue Cyr - Light";
+font-size: 2.152em;
+font-weight: 300;
+}
+.text span{
+	color: #48890a;
+	font-family: "Helvetica Neue Cyr - Bold";
+	font-size: 54px;
+	font-weight: 700;
+}
+
+.text p{
+color: #000000;
+font-family: "Arial MT";
+font-size: 0.875em;
+font-weight: 400;
+line-height: 25px;
+width: 40%;
+padding-top: 30px;
+}
+.button-footer{
+	color: #48890a;;
+	border: 2px solid #48890a;
+	text-decoration: none;
+	font-family: "Nimbus San T Con Bold";
+	font-size: 1.188em;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 22px 44px 21px 45px;
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 97px;
+}
+.line-footer{
+	border: none;
+	width: 100%;
+	outline: 4px solid #7da83c;;
+}
+.footer-nav{
+	width: 39.45%;
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 26px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.footer-nav a{
+	text-decoration: none;
+	color: #7b7b7b;
+	font-family: "Nimbus San T Con Bold";
+	font-size: 1.188em;
+	text-transform: uppercase;
+}
+.footer-nav a:hover{
+	color: #8dc705;
+}
+.footer-bottom{
+	background-color: #e4e4e4;
+}
+.footer-bottom-copyright{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 75%;
+	margin: auto;
+	padding: 27px 0 27px 0;
+}
+.footer-bottom p{
+color: #919191;
+font-family: "Arial MT";
+font-size: 0.75em;
+}
