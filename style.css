@@ -355,7 +355,8 @@ h1{
 	display: none;
 	width: 100%;
 	left: 0;
-	height: 100vh;
+	height: auto;
+	justify-content: flex-start;
 }
 .mobail-menu{
 	display: block;
@@ -413,7 +414,7 @@ h1{
 	background: rgba(99,157,37,0.7);
 	margin-top: 0;
 	font-size: 2em;
-	height: 100vh;
+	/*height: 100vh;*/
 	line-height: 3;
 }
 .nav-menu a:hover{
