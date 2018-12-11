@@ -355,7 +355,6 @@ h1{
 	display: none;
 	width: 100%;
 	left: 0;
-	height: auto;
 	justify-content: flex-start;
 }
 .mobail-menu{
@@ -385,6 +384,7 @@ h1{
 	-webkit-animation: navmenumobile 3s linear;
 	        animation: navmenumobile 3s linear;
 	top:0;
+	height: 100vh;
 }
 @-webkit-keyframes navmenumobile{
 	0%{
@@ -413,7 +413,6 @@ h1{
 .nav-menu a{
 	background: rgba(99,157,37,0.7);
 	margin-top: 0;
-	font-size: 2em;
 	/*height: 100vh;*/
 	line-height: 3;
 }
