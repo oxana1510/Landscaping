@@ -1,9 +1,17 @@
-mobMenu.onclick = function myFunction(){
-	var x = document.getElementById('navMenu')
+var open = document.querySelector("#mobMenu");
+var link = document.querySelector(".nav-menu");
+var close = document.querySelector(".mobail-menu-close");
 
-	if (x.className === "nav-menu"){
-		x.className += " responsive";
-	} else {
-		x.className = "nav-menu";
-	}
-}
+
+open.addEventListener("click", function () { 
+    link.classList.add("responsive"); 
+    close.classList.add("mobmenu-close-block");
+    open.classList.add("mobail-menuopen");
+  });
+
+close.addEventListener("click", function () {
+	link.classList.remove("responsive");
+	close.classList.remove("mobmenu-close-block");
+	open.classList.remove("mobail-menuopen");
+});
+
