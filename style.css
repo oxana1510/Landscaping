@@ -384,6 +384,7 @@ h1{
 	cursor: pointer;
 	z-index: 99999999;
 	display: none;
+	line-height: 1.6;
 }
 .mobail-menu{
 	display: block;
@@ -398,6 +399,7 @@ h1{
 	left: 80%;
 	top: 15px;
 	cursor: pointer;
+	line-height: 1.6;
 }
 .mobail-menuopen{
 	display: none;
